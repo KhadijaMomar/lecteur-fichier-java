@@ -1,3 +1,5 @@
+package metiers;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -28,7 +30,7 @@ public abstract class AbstractFileReader implements IFileReader {
                 }
             }
 
-            fileContent = sb.toString(); // Mise en cache du contenu
+            fileContent = sb.toString(); 
         }
         return fileContent;
     }
@@ -60,5 +62,5 @@ public abstract class AbstractFileReader implements IFileReader {
         }
     }
     
-    // La méthode abstract processFile() de l'interface doit être implémentée par les sous-classes.
+   
 }

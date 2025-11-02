@@ -1,5 +1,6 @@
+package metiers;
 import java.io.IOException;
-public class IFileReader{
+public interface IFileReader{
 
     String readFileContent() throws IOException;
 
