@@ -26,6 +26,6 @@ Le code est structuré en plusieurs classes pour garantir la modularité et la s
 | `IFileReader` | **Interface** | Contrat de base (méthodes `readFileContent()`, `displayContent()`, `processFile()`). |
 | `AbstractFileReader` | **Classe Abstraite** | Implémente la lecture de base (`readFileContent`), l'affichage standard (`displayContent`) et la comparaison (`compareFiles`). |
 | `TextFileReader` | **Sous-classe** | Implémente les méthodes d'affichage spécialisées (inversé par ligne, palindromique). |
-| `CsvFileReader` | **Sous-classe** | Exemple d'extension pour les fichiers CSV (à implémenter pour le parsing). |
-| `JsonFileReader` | **Sous-classe** | Exemple d'extension pour les fichiers JSON (à implémenter pour le parsing). |
+| `CsvFileReader` | **Sous-classe** | Exemple d'extension pour les fichiers CSV  |
+| `JsonFileReader` | **Sous-classe** | Exemple d'extension pour les fichiers JSON  |
 | `FileReaderApp` | **Classe Main** | Point d'entrée du programme, contient la méthode `main` pour la démonstration. |
